@@ -10,7 +10,7 @@ $lang = $uri[0];
 $page_url = $uri[1];
 
 // route current page
-switch ($_GET['']) {
+switch ($_GET) {
 
 	case '/':
 	case '':
@@ -19,7 +19,7 @@ switch ($_GET['']) {
 
 		// ==================== Admin =====================
 
-	case $_GET['login']:
+	case 'login':
 		$main->login();
 		break;
 	case 'login_post':
