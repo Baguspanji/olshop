@@ -10,7 +10,7 @@ $lang = $uri[0];
 $page_url = $uri[1];
 
 // route current page
-switch ($_GET) {
+switch ($page_url) {
 
 	case '/':
 	case '':
