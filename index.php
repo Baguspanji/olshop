@@ -30,7 +30,7 @@ switch ($page_url) {
 		break;
 
 	default:
-		header("HTTP/1.0 404 Not Found");
-		// print_r($uri);
+		// header("HTTP/1.0 404 Not Found");
+		print_r($uri);
 		break;
 }
